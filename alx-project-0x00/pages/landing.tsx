@@ -3,11 +3,11 @@ import Button from "@/components/Button"
 
 const Landing: React.FC =  () => {
   return (
-    <div>
+    <>
+      <div>
       <h1 className=" text-xl font-extralight">Landing Page</h1>
+        </div>
 
-      <Card  />
-      <Card  />
       <Card  />
       <Card  />
       <Card  />
@@ -32,7 +32,7 @@ const Landing: React.FC =  () => {
         <Button title="Large - full" styles="text-lg rounded-full" />
       </div>
 
-    </div>
+    </>
   )
 }
 export default Landing
