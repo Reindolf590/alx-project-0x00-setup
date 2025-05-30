@@ -22,7 +22,7 @@ const Landing: React.FC =  () => {
 
       {/* Large Buttons */}
       <div className="space-x-4">
-        <Button title="Large - sm" styles="text-lg rounded-sm" />
+        <Button title="Large - lg" styles="text-lg rounded-lg" />
         <Button title="Large - md" styles="text-lg rounded-md" />
         <Button title="Large - full" styles="text-lg rounded-full" />
       </div>
