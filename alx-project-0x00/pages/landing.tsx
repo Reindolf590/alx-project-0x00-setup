@@ -6,10 +6,8 @@ const Landing: React.FC =  () => {
   return (
     <div>
       <h1 className=" text-xl font-extralight">Landing Page</h1>
-
       <Card  />
       <Card  />
-
       <div className="space-x-4">
         <Button title="Small - sm" styles="text-sm rounded-sm" />
         <Button title="Small - md" styles="text-sm rounded-md" />
